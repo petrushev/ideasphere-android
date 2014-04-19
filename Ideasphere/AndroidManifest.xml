@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nasap.ideasphere"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nasap.ideasphere.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.Activity0"
+            android:label="@string/title_activity_activity0" >
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.Activity1"
+            android:label="@string/title_activity_activity1" >
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.Activity2"
+            android:label="@string/title_activity_activity2" >
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.Activity3"
+            android:label="@string/title_activity_activity3" >
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.Problem0"
+            android:label="@string/title_activity_problem0" >
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.Problem1"
+            android:label="@string/title_activity_problem1" >
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.Problem3"
+            android:label="@string/title_activity_problem3" >
+        </activity>
+        <activity
+            android:name="com.nasap.ideasphere.Problem2"
+            android:label="@string/title_activity_problem2" >
+        </activity>
+    </application>
+
+</manifest>
